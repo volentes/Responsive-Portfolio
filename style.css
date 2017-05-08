@@ -1,0 +1,343 @@
+/*CSS for general classes and tags across all three pages*/
+
+body {
+  background-color: grey;
+  background-image: url("../images/pow-star.png");
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+header {
+  width: 100%;
+  padding: 30px 0px;
+  background-color: white;
+  height: 70px;
+}
+
+.logo {
+    float: left;
+    position: fixed;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+
+.navbar {
+  list-style-type: none;
+  display: inline-block;
+  color: #777777;
+  margin-right: 40px;
+  margin-bottom: -20px;
+  float: right;
+  clear: both;
+}
+
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 30px;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+li {
+    float: right;
+    margin-top: 0px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+/* Change the link color to grey on hover */
+li a:hover {
+  background-color: #DCDCDC;
+}
+
+
+.leftabout {
+  float: left;
+  margin-top: 30px;
+  margin-left: 150px;
+  background-color: #ffffff;
+  border-color: #dddddd;
+  margin-right: 500px;
+  position: fixed;
+  outline-color: grey;
+  clear: both;
+}
+h1 {
+  color: #4aaaa5;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  padding: 20px;
+  margin-bottom: -10px;
+}
+
+#aboutme {
+  color: #4aaaa5;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  padding: 30px;
+}
+
+.profilepic {
+  float: left;
+  clear: both;
+
+}
+
+p {
+  color: #777777;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.rightabout {
+  float: right;
+  margin-top:30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-right: 150px;
+  text-align: center;
+  outline-color: grey;
+  background-color: #ffffff;
+  border-color: #dddddd;
+  clear: both;
+}
+
+footer {
+  width: 100%;
+  padding: 30px 0px;
+  color: #FFF;
+  font-size: 12px;
+  background-color: #666;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  border-top: 8px solid #4AAAA5;
+  clear: both;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+h2 {
+  color: #4aaaa5;
+	font-size: 20px;
+	margin-top: 15px;
+}
+/* styling for Portfolio Page */
+
+.portsection {
+  float: left;
+  background-color: #ffffff;
+  border-color: #dddddd;
+  position: fixed;
+  margin-left: 150px;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+.placeholderimage {
+	width: 45%;
+	float: left;
+  margin-top: 20px;
+	margin-left: 3%;
+	text-align: center;
+	position: relative;
+	overflow: auto;
+}
+.placeholderimage img {
+	width: 100%;
+}
+.futureproject {
+	position: absolute;
+	bottom: 10px;
+	background-color: #4AAAA5;
+	width: 202px;
+	color: #FFF;
+	padding: 15px 0px;
+  margin-left: 22%;
+  overflow: auto;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+
+
+
+
+/* styling for Contact Page */
+
+.contactinfo {
+  float: left;
+  margin-top: 30px;
+  margin-left: 150px;
+  background-color: #ffffff;
+  border-color: #dddddd;
+  margin-right: 50%;
+  position: fixed;
+  outline-color: grey;
+  width: 600px;
+}
+
+form {
+  margin-bottom: 40px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  padding-top: 0px;
+  color: #777777;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+
+
+}
+
+.contact {
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+}
+
+#message {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+#submit {
+    width: 25%;
+    padding: 12px 12px;
+    box-sizing: border-box;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 18px;
+}
+/*Adding Media queries to myPortfolio */
+
+    /*Media queries added to Index.html, Portfolio.html and Contact.html*/
+@media screen and (max-width: 980px) {
+}
+
+@media screen and (max-width: 768px) {
+  Header {
+    width: 100%;
+    }
+  .logo {
+    width: 40%;
+    position: static;
+    }
+  .navbar {
+    width: 70%;
+    float: left;
+    clear: both;
+    text-align: center;
+    margin: 10px;
+    position: static;
+    display: inline-block;
+    }
+  .leftabout {
+    width: 70%;
+    margin-top: 20px;
+    position: relative;
+    }
+  .portsection {
+    width: 70%;
+    margin-top: 20px;
+    position: relative;
+    }
+  .contactinfo {
+    width: 70%;
+    margin-top: 20px;
+    position: relative;
+  }
+  .rightabout {
+    width: 70%;
+    text-align: center;
+    float: left;
+    clear: both;
+    margin-left: 150px;
+    }
+  ul {
+    text-align: center;
+    margin-right: 110px;
+    }
+  footer {
+    width: 100%;
+    position: static;
+    }
+}
+@media screen and (min-width:)(max-width: 640px) {
+  Header {
+    width: 100%;
+    }
+  .logo {
+    width: 50%;
+    position: static;
+    }
+  .navbar {
+    width: 60%;
+    position: static;
+    display: inline-block;
+    margin-left: 150px;
+    text-align: center;
+    margin-right: 275px;
+    float: left;
+    clear: both;
+    }
+  .leftabout {
+    width: 70%;
+    margin-top: 20px;
+    position: relative;
+    }
+  .portsection {
+    width: 70%;
+    margin-top: 20px;
+    position: relative;
+    }
+  .contactinfo {
+    width: 70%;
+    margin-top: 20px;
+    position: relative;
+  }
+  .rightabout {
+    width: 70%;
+    text-align: center;
+    float: left;
+    clear: both;
+    margin-left: 150px;
+    }
+  ul {
+    text-align: center;
+    margin-right: 70px;
+  }
+  footer {
+    width: 100%;
+    position: static;
+  }
+}
